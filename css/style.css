@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+    margin-left: 2.5rem;
+    padding: 5px;
+    text-align: justify;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+i {
+    cursor: pointer;
+    color: #A6808C;
+}
+
+i:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.4);
+}
+
+#main {
+    background-image: url('https://images.unsplash.com/photo-1454587399083-b11b22f48fb6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1300&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    border-radius: 10px;
+    margin-top: 5rem;
+    background-color: #D69F7E;
+    width: 400px;
+    height: 70vh;
+    box-shadow: 0 0.5em 1em -0.4em;
+}
+
+#todo {
+    color: whitesmoke;
+    margin-top: 1rem;
+}
+
+#todo h1 {
+    font-size: 2rem;
+}
+
+.bottom-line {
+    height: 2px;
+    width: 16rem;
+    background: #A6808C;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+
+#userInput {
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 2px;
+    width: 75%;
+    height: 35px;
+    padding: 1rem;
+    outline: none;
+    font-size: 1rem;
+}
+
+.buttons {
+    margin-top: 1rem;
+}
+
+#saveBtn, #clearBtn {
+    background-color: #A6808C;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    color: whitesmoke;
+    height: 1.5rem;
+    width: 5rem;
+    margin: 3px;
+    outline: none;
+}
+
+#clearBtn:hover {
+    opacity: 0.8;
+}
+
+#saveBtn:hover {
+    opacity: 0.8;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/*Footer*/
+#main-footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #A6808C;
+    color: whitesmoke;
+    padding: 1rem 0 1rem 1rem;
+}
+
+#main-footer .social i {
+    color: whitesmoke;
+}
+
+#main-footer .social li {
+    margin: 0;
+    display: inline-block;
+}
+
+@media (max-width: 480px) {
+    .container {
+        margin-top: 4rem;
+        margin-bottom: 0;
+        width: 90vw;
+        height: 75vh;
+    }
+
+    #main {
+        height: 90vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
